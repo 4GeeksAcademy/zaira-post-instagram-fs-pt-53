@@ -1,0 +1,39 @@
+body {
+    background: black;
+    margin: 0;
+}
+.container{
+    background: white;
+    width: 450px;
+    margin: auto;
+}
+.post-header{
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.icon-size{
+    width: 30px;
+    height: 30px;
+}
+
+.icon-right{
+    float:right;
+    width: 8%;
+    
+}
+.icon-left{
+    float:left;
+    width: 92%;
+}
+
+p{
+    padding: 10px;
+    margin:0px;
+    font-family: 'Edu TAS Beginner', cursive;;
+}
