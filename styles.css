@@ -1,6 +1,6 @@
 body {
     background: black;
-    margin: 0;
+    margin-top: 100px;
 }
 .container{
     background: white;
@@ -9,31 +9,62 @@ body {
 }
 .post-header{
     display: flex;
-    padding: 5px;
+    padding: 15px;
+    padding-right: 0;
     margin-top: 5px;
+}
+.icon-size{
+    width: 30px;
+    height: 30px;
+}
+.icon-size-menu{
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.icon-size-5{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+.icon-left-5{
+    float:left;
+    width: 8%;
+}
+.icon-left-rigoberto{
+    float:left;
+    width: 95%;
+    margin-left: 8px;
+}
+.icon-right{
+    width: 10%;
+    margin: 0;
+}
+.icon-bottom-left{
+    float:left;
+    width: 98%;
 }
 img{
     width: 100%;
     height: 100%;
     margin: 0px;
 }
-.icon-size{
-    width: 30px;
-    height: 30px;
-}
-
-.icon-right{
-    float:right;
-    width: 8%;
+p{
+    font-family:"Roboto";
+    font-size: 15px;
     
 }
-.icon-left{
-    float:left;
-    width: 92%;
+.p-no-padding{
+    margin: 0px;
+    padding: 0px;
 }
-
-p{
-    padding: 10px;
-    margin:0px;
-    font-family: 'Edu TAS Beginner', cursive;;
+.p-liked{
+    padding: 0px 12px 0px 12px;
+    margin: 0px;
+}
+.p-lorem{
+    padding: 15px 12px 30px 12px;
+    margin: 0px;
 }
